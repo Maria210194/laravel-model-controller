@@ -1,0 +1,30 @@
+*{
+    box-sizing: border-box;
+    margin: 0 auto;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+.container{
+display: flex;
+flex-wrap: wrap;
+row-gap: 15px;
+text-align: center;
+}
+
+h1{
+    text-align: center;
+    color: #98a5b6;
+    padding: 30px;
+
+}
+
+.card-movie{
+    width: 30%;
+    padding: 10px;
+    border: 1px solid palevioletred;
+}
+
+.card-movie:hover{
+background-color: #98a5b6;
+}
